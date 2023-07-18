@@ -8,42 +8,42 @@ export const Navbar = () => {
     <div class="bg-slate-200">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div class="relative flex items-center justify-between">
-          <a href="/" aria-label="" title="" class="inline-flex items-center">
+          <Link to="/" aria-label="" title="" class="inline-flex items-center">
             <img className="w-16" src={logo} alt="logo" />
             <span class="ml-2 text-xl font-bold tracking-wide  uppercase">
               Madrasatut Ta'sis
             </span>
-          </a>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
+          </Link>
+          <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide transition-colors duration-200 hover:hover:text-green-400"
               >
                 Courses
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide transition-colors duration-200 hover:hover:text-green-400"
               >
                 Donate
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide transition-colors duration-200 hover:text-green-400"
               >
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
               <Link
@@ -82,7 +82,7 @@ export const Navbar = () => {
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
-                      <a
+                      <Link
                         href="/"
                         aria-label=""
                         title=""
@@ -92,7 +92,7 @@ export const Navbar = () => {
                         <span class="ml-2 text-xl font-bold tracking-wide  uppercase ">
                           Madrasatut Ta'sis
                         </span>
-                      </a>
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -113,44 +113,44 @@ export const Navbar = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:hover:text-green-400"
                         >
                           Courses
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:hover:text-green-400"
                         >
                           Donate
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/"
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:hover:text-green-400"
                         >
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >
                           Donate Now
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
