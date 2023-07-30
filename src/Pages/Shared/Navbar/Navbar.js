@@ -17,9 +17,9 @@ export const Navbar = () => {
           <ul className="items-center hidden space-x-8 lg:flex">
             <li>
               <Link
-                to="/"
-                aria-label="Our product"
-                title="Our product"
+                to="/courses"
+                aria-label="Courses"
+                title="Courses"
                 class="font-medium tracking-wide transition-colors duration-200 hover:hover:text-green-400"
               >
                 Courses
@@ -27,19 +27,19 @@ export const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/"
-                aria-label="Our product"
-                title="Our product"
+                to="/blogs"
+                aria-label="Donate"
+                title="Donate"
                 class="font-medium tracking-wide transition-colors duration-200 hover:hover:text-green-400"
               >
-                Donate
+                Blogs
               </Link>
             </li>
             <li>
               <Link
-                to="/"
-                aria-label="Product pricing"
-                title="Product pricing"
+                to="/about-us"
+                aria-label="About Us"
+                title="About Us"
                 class="font-medium tracking-wide transition-colors duration-200 hover:text-green-400"
               >
                 About Us
@@ -47,9 +47,9 @@ export const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/"
+                to="/donation"
                 className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide  transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none"
-                aria-label=""
+                aria-label="Donation"
               >
                 Donate Now
               </Link>
@@ -83,7 +83,7 @@ export const Navbar = () => {
                   <div class="flex items-center justify-between mb-4">
                     <div>
                       <Link
-                        href="/"
+                        to="/"
                         aria-label=""
                         title=""
                         class="inline-flex items-center"
@@ -114,7 +114,7 @@ export const Navbar = () => {
                     <ul class="space-y-4">
                       <li>
                         <Link
-                          to="/"
+                          to="/courses"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:hover:text-green-400"
@@ -124,17 +124,17 @@ export const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          to="/"
-                          aria-label="Our product"
-                          title="Our product"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:hover:text-green-400"
+                          to="/blogs"
+                          aria-label="Donate"
+                          title="Donate"
+                          class="font-medium tracking-wide transition-colors duration-200 hover:hover:text-green-400"
                         >
-                          Donate
+                          Blogs
                         </Link>
                       </li>
                       <li>
                         <Link
-                          to="/"
+                          to="/about-us"
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:hover:text-green-400"
@@ -144,10 +144,10 @@ export const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          to="/donation"
                           class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
+                          aria-label="Donate Now"
+                          title="Donate Now"
                         >
                           Donate Now
                         </Link>
