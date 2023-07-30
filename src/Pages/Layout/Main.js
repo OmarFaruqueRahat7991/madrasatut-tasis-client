@@ -1,8 +1,8 @@
 import React from 'react'
-import { Footer } from '../Shared/Footer/Footer'
 
 import { Outlet } from 'react-router'
 import { Navbar } from '../Shared/Navbar/Navbar'
+import { Footers } from '../Shared/Footers/Footers'
 
 
 export const Main = () => {
@@ -10,7 +10,7 @@ export const Main = () => {
     <div>
         <Navbar></Navbar>
         <Outlet></Outlet>
-        <Footer></Footer>
+        <Footers></Footers>
     </div>
   )
 }
